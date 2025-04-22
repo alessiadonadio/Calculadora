@@ -1,0 +1,84 @@
+/* Definindo o estilo da página */
+body {
+    background-color: #e98989;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('img/minimal-black-background-simple-and-clean-dark-wallpaper-dark-futuristic-deep-background-700-209343299.jpg'); 
+  background-size: cover;
+  background-position: center; 
+  }
+  
+  .calculadora-cientifica {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+  }
+  
+  #resultado {
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .botoes-funcionarios {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  button {
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e1e1e1;
+  }
+  
+  button:active {
+    background-color: #d1d1d1;
+  }
+  
+  button.limpar {
+    grid-column: span 2;
+    background-color: #ff5733;
+    color: rgb(221, 44, 44);
+  }
+  
+  button.limpar:hover {
+    background-color: #e04e2b;
+  }
+  
+  button.calcular {
+    background-color: #4caf50;
+    color: rgb(88, 199, 66);
+  }
+  
+  button.calcular:hover {
+    background-color: #45a049;
+  }
+  
